@@ -1,6 +1,6 @@
 services:
   vowerp-backend:
-    image: ghcr.io/tarunsadhukhan/sjmebe:latest
+    image: ghcr.io/sadhukhantks/sjmebe:latest
     build:
       context: .
     container_name: vowerp-backend
@@ -14,7 +14,7 @@ services:
       - vowerp
 
   vowerp-scheduler:
-    image: ghcr.io/tarunsadhukhan/sjmebe:latest
+    image: ghcr.io/sadhukhantks/sjmebe:latest
     container_name: vowerp-scheduler
     restart: unless-stopped
     command: uvicorn src.scheduler_main:app --host 0.0.0.0 --port 48480
