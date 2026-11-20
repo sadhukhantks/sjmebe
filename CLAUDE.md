@@ -6,7 +6,7 @@ VoWERP3 Backend is a **multi-tenant ERP system** built with **FastAPI** and **SQ
 
 **Tech Stack:** Python 3.12+ | FastAPI 0.115.11 | SQLAlchemy 2.0.38 | MySQL/PyMySQL | JWT auth | Docker | Pytest
 
-**Current Branch:** `ssbe1.2` | **Main Branch:** `main`
+**Current Branch:** `ssbe1.2` | **Main Branch:** `main`1
 
 ---
 
